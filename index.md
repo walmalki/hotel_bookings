@@ -21,32 +21,26 @@
 > We decided to use R-Studio to analyze our data, as R-Studio is a free software environment plus is friendly to use.
 >
 > First of all, we will install the packages which we need for our analyses, then we import our data.
-
-
+>
 > #### Install packages
 >
 > `install.packages("tidyverse")`
-
-
+>
 > #### Load packages
 >
 > `library(tidyverse)`
-
-
+>
 > #### import dataset
 >
 > `hotel_bookings <- read.csv("hotel_bookings.csv")`
-
-
+>
 > #### We look at a sample of our data.
 >
 > ![](images/image-2.png)
-
-
+>
 > #### We look at column names.
 >
 > ![](images/image-4.png)
-
 
 > ### Answering question one
 >
