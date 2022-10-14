@@ -17,9 +17,8 @@
 
 
 > ## Analyzing the Data
-
 > We decided to use R-Studio to analyze our data, as R-Studio is a free software environment plus is friendly to use.
-
+>
 > First of all, we will install the packages which we need for our analyses, then we import our data.
 
 
