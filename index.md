@@ -18,19 +18,19 @@ This data describes a dataset with hotel demand data, which contains 31 variable
 
 > ## Analyzing the Data
 
-#### We decided to use R-Studio to analyze our data, as R-Studio is a free software environment plus is friendly to use.
+We decided to use R-Studio to analyze our data, as R-Studio is a free software environment plus is friendly to use.
 
-#### First of all, we will install the packages which we need for our analyses, then we import our data.
+First of all, we will install the packages which we need for our analyses, then we import our data.
 
 
 > #### Install packages
 
-`install.packages("tidyverse")`
+> `install.packages("tidyverse")`
 
 
 > #### Load packages
 
-`library(tidyverse)`
+> `library(tidyverse)`
 
 
 > #### import dataset
