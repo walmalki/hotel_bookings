@@ -1,11 +1,12 @@
 > # Hotel Bookings Analysis
 
 > ## Content
+>
 > This data describes a dataset with hotel demand data, which contains 31 variables and 79,330 observations for City Hotel and 40,060 observations for Resort Hotel. Each observation represents a hotel booking between the 1st of July 2015 and the 31st of August 2017.
-
+>
 > #### We downloaded the dataset from "Kaggle.com": [Click here](https://www.kaggle.com/datasets/mojtaba142/hotel-booking)
-
-> #### We have exploded the dataset by using Pandas-Profiling and investigated, cleaned, and manipulated the data: [Click here]()
+>
+> #### We have exploded the dataset by using Pandas-Profiling and investigated, cleaned, and manipulated the data: [Click here](https://walmalki.github.io/hotel_bookings_exploratory/#overview-dataset_overview)
 
 > ## Questions to answer
 > 1. Do people with children have to book in advance?
@@ -23,28 +24,28 @@
 
 
 > #### Install packages
-
-`install.packages("tidyverse")`
+>
+> `install.packages("tidyverse")`
 
 
 > #### Load packages
-
-`library(tidyverse)`
+>
+> `library(tidyverse)`
 
 
 > #### import dataset
-
-`hotel_bookings <- read.csv("hotel_bookings.csv")`
+>
+> `hotel_bookings <- read.csv("hotel_bookings.csv")`
 
 
 > #### We look at a sample of our data.
-
-![](images/image-2.png)
+>
+> ![](images/image-2.png)
 
 
 > #### We look at column names.
-
-![](images/image-4.png)
+>
+> ![](images/image-4.png)
 
 
 > ### Answering question one
@@ -67,15 +68,15 @@
 
 
 > ### Answering question two
-
+>
 > The second question is **What group of guests are booking the most weekend nights?** and will create a visualization as we did for the first question. The two variables that need to provide to the plot are **stays_in_weekend_nights** as the x-axis and **children** as the y-axis.
-
-`ggplot(data = hotel_bookings) + geom_point(mapping = aes(x=stays_in_weekend_nights, y=children))`
-
-
-![](images/image-6.png)
-
-
+>
+> `ggplot(data = hotel_bookings) + geom_point(mapping = aes(x=stays_in_weekend_nights, y=children))`
+>
+>
+> ![](images/image-6.png)
+>
+>
 > On the x-axis, the plot shows that what group of guests are booking the most weekend nights, with the stay in weekend nights furthest to the right happening the most booking weekend nights. the y-axis shows how many children there are in a party. So, the plot reveals that our hypothesis is **correct**, guests without children book most weekend nights.
 
 
