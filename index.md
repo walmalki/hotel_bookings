@@ -50,7 +50,7 @@ This data describes a dataset with hotel demand data, which contains 31 variable
 
 > ### Answering question one
 
-To answer the first question which is **Do people with children have to book in advance**, we will create a visualization to see how true that statement is or isn't.
+To answer the first question which is **Do people with children have to book in advance?**, we will create a visualization to see how true that statement is or isn't.
 
 We will use the ggplot2 package to create our visualization, however, the two columns that we should include in our plot to find the answer to this question are **lead_time** as the x-axis and **children** as the y-axis.
 
@@ -83,10 +83,10 @@ On the x-axis, the plot shows that what group of guests are booking the most wee
 
 > ### Final results
 
-1. Do people with children have to book in advance?
+> 1. Do people with children have to book in advance?
 
-In a sense no, but people with zero children are the most bookings in advance, the reason might be that people with children find a booking in a hotel costly and they can't afford it, or might be they are too busy or have limited time to make up their mind and book a hotel in advance. Despite that people without children have more time than people with children, also it does not cost them more money.
+> In a sense no, but people with zero children are the most bookings in advance, the reason might be that people with children find a booking in a hotel costly and they can't afford it, or might be they are too busy or have limited time to make up their mind and book a hotel in advance. Despite that people without children have more time than people with children, also it does not cost them more money.
 
-2. What group of guests are booking the most weekend nights?
+> 2. What group of guests are booking the most weekend nights?
 
 We found out that guests without children are the ones who make bookings most weekend nights, the reason for that can be the same as booking in advance for people with no children, it does not cost them more money to book on weekend nights.
