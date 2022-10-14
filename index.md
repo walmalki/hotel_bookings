@@ -3,7 +3,7 @@
 > ## Content
 > This data describes a dataset with hotel demand data, which contains 31 variables and 79,330 observations for City Hotel and 40,060 observations for Resort Hotel. Each observation represents a hotel booking between the 1st of July 2015 and the 31st of August 2017.
 
-> ### We downloaded the dataset from "Kaggle.com": [Click here](https://www.kaggle.com/datasets/mojtaba142/hotel-booking)
+> #### We downloaded the dataset from "Kaggle.com": [Click here](https://www.kaggle.com/datasets/mojtaba142/hotel-booking)
 
 > #### We have exploded the dataset by using Pandas-Profiling and investigated, cleaned, and manipulated the data: [Click here]()
 
@@ -48,21 +48,21 @@
 
 
 > ### Answering question one
-
+>
 > To answer the first question which is **Do people with children have to book in advance?**, we will create a visualization to see how true that statement is or isn't.
-
+>
 > We will use the ggplot2 package to create our visualization, however, the two columns that we should include in our plot to find the answer to this question are **lead_time** as the x-axis and **children** as the y-axis.
-
-`install.packages("ggplot")`
-
-`library(ggplot)`
-
-`ggplot(data = hotel_bookings) + geom_point(mapping = aes(x=lead_time, y=children))`
-
-
-![](images/image-5.png)
-
-
+>
+> `install.packages("ggplot")`
+>
+>`library(ggplot)`
+>
+> `ggplot(data = hotel_bookings) + geom_point(mapping = aes(x=lead_time, y=children))`
+>
+>
+> ![](images/image-5.png)
+>
+>
 > On the x-axis, the plot shows how far in advance a booking is made, with the bookings furthest to the right happening the most in advance. On the y-axis it shows how many children there are in a party. So, the plot reveals that our hypothesis is **incorrect**, many of the advanced bookings are being made by people with 0 children.
 
 
@@ -81,11 +81,11 @@
 
 
 > ### Final results
-
+>
 > 1. Do people with children have to book in advance?
-
+>
 > In a sense no, but people with zero children are the most bookings in advance, the reason might be that people with children find a booking in a hotel costly and they can't afford it, or might be they are too busy or have limited time to make up their mind and book a hotel in advance. Despite that people without children have more time than people with children, also it does not cost them more money.
-
+>
 > 2. What group of guests are booking the most weekend nights?
-
+>
 > We found out that guests without children are the ones who make bookings most weekend nights, the reason for that can be the same as booking in advance for people with no children, it does not cost them more money to book on weekend nights.
